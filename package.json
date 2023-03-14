@@ -50,6 +50,7 @@
   },
   "_moduleAliases": {
     "@/utils/*": "dist/utils",
+    "@/validations/*": "dist/validations",
     "@/middleware/*": "dist/middleware",
     "@/controllers/*": "dist/controllers",
     "@/exceptions/*": "dist/exceptions",
