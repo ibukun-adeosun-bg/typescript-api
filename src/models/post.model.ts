@@ -17,5 +17,6 @@ const PostSchema = new Schema(
     }
 );
 
+const PostModel = model<Post>("Post", PostSchema)
 
-export default model<Post>("Post", PostSchema)
+export default PostModel;

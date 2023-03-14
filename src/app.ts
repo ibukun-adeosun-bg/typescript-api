@@ -43,6 +43,12 @@ class App {
             `${process.env.MONGO_URL}`
         )
     }
+
+    public listen(): void {
+        this.express.listen(this.port, () => {
+            console.log(`App is currently running on port ${this.port}`);
+        })
+    }
 }
 
 export default App
